@@ -1,0 +1,40 @@
+/*
+https://coolors.co/2b2d42-8d99ae-edf2f4-ef233c-d90429
+*/
+
+a {
+  box-shadow: 0 1px 0 0 currentColor;
+  background-image: none;
+  color: #2B2D42;
+}
+
+a:hover {
+  box-shadow: none;
+  background-image: none;
+  color: #EF233C;
+}
+
+a.gatsby-resp-image-link {
+  box-shadow: none;
+  background-image: none;
+}
+
+.socialLink {
+  box-shadow: none;
+  background-image: none;
+  color: #8D99AE;
+}
+
+.socialLink:hover {
+  box-shadow: none;
+  background-image: none;
+  color: #EF233C;
+}
+
+.secondColor {
+  color: #8D99AE;
+}
+
+blockquote {
+  border-left: 0.5925rem solid #EF233C;
+}

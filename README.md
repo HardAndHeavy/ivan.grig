@@ -1,0 +1,1 @@
+[Мой блог](https://grig.life/), реализованный на основе [Gatsby](https://www.gatsbyjs.org/).
