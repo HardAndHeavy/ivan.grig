@@ -5,8 +5,5 @@ ghpages.publish(
   {
     branch: 'master',
     repo: 'https://github.com/HardAndHeavy/hardandheavy.github.io.git',
-  },
-  () => {
-    console.log('Deploy Complete!')
   }
 )
