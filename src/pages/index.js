@@ -33,11 +33,18 @@ class BlogIndex extends React.Component {
                 </Link>
               </h3>
               <small className="secondColor">{node.frontmatter.date}</small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
+              <p>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: node.frontmatter.description || node.excerpt,
+                  }}
+                />
+                <small>
+                  <Link className="secondColor" to={node.fields.slug}>
+                    Читать дальше →
+                  </Link>
+                </small>
+              </p>
             </div>
           )
         })}
