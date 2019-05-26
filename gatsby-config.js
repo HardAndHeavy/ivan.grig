@@ -10,7 +10,7 @@ module.exports = {
       github: `https://github.com/HardAndHeavy`,
       mail: `HardAndHeavyMetal@gmail.com`,
     },
-    git: `https://github.com/HardAndHeavy/ivan-blog`,
+    git: `https://github.com/HardAndHeavy/ivan.grig`,
   },
   plugins: [
     {

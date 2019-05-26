@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Ivan Grigorev <https://www.gatsbyjs.org/>",
   "bugs": {
-    "url": "https://github.com/HardAndHeavy/ivan-blog/issues"
+    "url": "https://github.com/HardAndHeavy/ivan.grig/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
@@ -42,7 +42,7 @@
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.0"
   },
-  "homepage": "https://github.com/HardAndHeavy/ivan-blog#readme",
+  "homepage": "https://github.com/HardAndHeavy/ivan.grig#readme",
   "keywords": [
     "gatsby"
   ],
@@ -50,7 +50,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HardAndHeavy/ivan-blog.git"
+    "url": "git+https://github.com/HardAndHeavy/ivan.grig.git"
   },
   "scripts": {
     "build": "gatsby build",
