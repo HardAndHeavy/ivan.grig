@@ -28,6 +28,7 @@ class BlogPostTemplate extends React.Component {
         />
         <h1>{post.frontmatter.title}</h1>
         <p
+          className="secondColor"
           style={{
             ...scale(-1 / 5),
             display: `block`,
