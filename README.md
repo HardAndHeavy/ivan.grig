@@ -1,1 +1,1 @@
-[Мой блог](https://7grig.ru/), реализованный на основе [Gatsby](https://www.gatsbyjs.org/).
+[Мой блог](https://grig.top/), реализованный на основе [Gatsby](https://www.gatsbyjs.org/).
