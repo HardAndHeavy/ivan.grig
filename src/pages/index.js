@@ -1,24 +1,20 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
   render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+    const posts = this.props.data.allMarkdownRemark.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout>
         <SEO
           title="Все статьи"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`, `блог`, `grig`, `grig.top`]}
+          keywords={[`blog`, `gatsby`, `javascript`, `react`, `блог`, `grig`, `grig.top`, `григ`, `григорьев`]}
         />
-        <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
@@ -34,16 +30,13 @@ class BlogIndex extends React.Component {
               </h3>
               <small className="secondColor">{node.frontmatter.date}</small>
               <p>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-                <small>
-                  <Link className="secondColor" to={node.fields.slug}>
-                    Читать дальше →
-                  </Link>
-                </small>
+                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: node.frontmatter.description || node.excerpt,
+                    }}
+                  />
+                </Link>
               </p>
             </div>
           )
@@ -57,11 +50,6 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {

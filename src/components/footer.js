@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import { rhythm } from "../utils/typography"
 
-const Footer = () => (
+const Footer = () =>
   <StaticQuery
     query={footerQuery}
     render={data => {
@@ -20,7 +20,6 @@ const Footer = () => (
       )
     }}
   />
-)
 
 const footerQuery = graphql`
   query FooterQuery {
