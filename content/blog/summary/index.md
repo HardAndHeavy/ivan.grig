@@ -43,9 +43,9 @@ keywords: summary, резюме
 [ННГУ им. Лобачевского](http://www.unn.ru/)
 - ВМК, 2004 — 2009
 
-[Курсы 1С](https://1c.ru/rus/partners/training/default.jsp)
-- 1С:Эксперт по технологическим вопросам (CS78921), 2010
-- 1С:Специалист. Бухгалтерия 8 (CS75143), 2009
+[Курсы 1С](https://uc1.1c.ru/account/summary/?token=1e6b5d763288ceae913c1a9be2450fb9)
+- 1С:Эксперт по технологическим вопросам ([CS78921](https://uc1.1c.ru/account/get_prof_certificate/?typeGuid=620c93bd-caf8-11db-b9de-000e0c2f31ac&certificateShortNumber=78921&guid=39022895-a8d9-11de-8780-001a6411168a)), 2010
+- 1С:Специалист. Бухгалтерия 8 ([CS75143](https://uc1.1c.ru/account/get_prof_certificate/?typeGuid=f1d0032a-b004-11da-b4f7-00145e306420&certificateShortNumber=75143&guid=39022895-a8d9-11de-8780-001a6411168a)), 2009
 
 [Hexlet](https://ru.hexlet.io/my)
 - Фронтенд JavaScript, 2018
