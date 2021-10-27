@@ -14,6 +14,8 @@ https://youtu.be/JJy0GWBDa3E
 
 ### Видеоинструкция
 
+https://www.youtube.com/watch?v=Vz0F3UdUuu4
+
 ### Необходимые знания
 - Публикация 1С на веб-сервере
 - Сети, DNS, переадресация портов
@@ -31,7 +33,7 @@ https://youtu.be/JJy0GWBDa3E
 
 В стартовом окне выбираем тип `Custom` и нажимаем *Next*. Проект создадим с нуля, поэтому выбираем `Blank project` и нажимаем *Start building*.
 
-В разделе настроек *Settings* указываем имя *Display name* — `Диалог с 1С` и нажимаем *Save*. 
+В разделе настроек *Settings* указываем имя *Display name* — `УНИКАЛЬНОЕ_ИМЯ` (в моём случае `Диалог с 1С`) и нажимаем *Save*. 
 
 В разделе связывания аккаунта *Account linking* переводим переключатель в активное положение. Отвечаем положительно `Yes` на вопрос регистрации голосом *Do you want to allow users to sign up for new accounts via voice?* и нажимаем *Next*. Тип связывания *Linking type* выбираем `Google Sign In` и нажимаем *Next*. Запоминаем *Client ID*, мы его будем указывать в константе `AG_CLIENT_ID`, и нажимаем *Save*.
 
