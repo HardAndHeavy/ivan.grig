@@ -91,7 +91,7 @@ docker run ^
 
 Переходим на сцену *AccountLinkingOrigin_AccountLinking*. В обработчике *Condition* для условия *If user successfully completes account linking* включаем *Call your webhook* и вводим `create_user`. В переходе *Transition* выбираем сцену `AccountLinkingOrigin`. В обработчике *Condition* для условия *If user cancels or dismisses account linking* в переходе *Transition* выбираем сцену `End conversation`. В обработчике *Condition* для условия *If system or network error occurs* в переходе *Transition* выбираем сцену `End conversation`. Нажимаем *Save*.
 
-Переходим на сцену *Dialogue*. В обработчике *User intent handling* нажимаем плюс. В поле *Intent* набираем `request` и нажимаем *Add*. Включаем *Call your webhook* и вводим `request`. В переходе *Transition* выбираем сцену `Dialogue`. В обработчике *User intent handling* нажимаем плюс. В поле *Intent* набираем `request` и нажимаем *Add*. В переходе *Transition* выбираем сцену `End conversation`. Нажимаем *Save*.
+Переходим на сцену *Dialogue*. В обработчике *User intent handling* нажимаем плюс. В поле *Intent* набираем `request` и нажимаем *Add*. Включаем *Call your webhook* и вводим `request`. В переходе *Transition* выбираем сцену `Dialogue`. В обработчике *User intent handling* нажимаем плюс. В поле *Intent* набираем `goodbye` и нажимаем *Add*. Включаем *Call your webhook* и вводим `goodbye`.  В переходе *Transition* выбираем сцену `End conversation`. Нажимаем *Save*.
 
 ### Google Ассистент. Develop. Типы
 В разделе типов *Types* нажимаем плюс и вводим `topic`. В разделе *Add entries* создаём перечисления:
