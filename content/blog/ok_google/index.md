@@ -2,7 +2,7 @@
 title: Окей, Google
 date: "2021-10-26T07:29:47.153Z"
 description: Пример интеграции Google Ассистента с 1С. В основе которого лежит платформа Dialogflow CX для понимания естественного языка.
-keywords: google, action, dialogflow, dialogflow cx, окей, ассистент, google ассистент
+keywords: google, dialogflow, dialogflow cx, ok, окей, ассистент, AI, чат-бот, интеграция, docker, actions, диалог, dialog, hardandheavy
 ---
  
 Пример интеграции Google Ассистента с 1С. В основе которого лежит платформа Dialogflow CX для понимания естественного языка.
@@ -50,8 +50,8 @@ AG_CLIENT_ID=Client ID issued by Google to your Actions
 - `NODE_ENV` — внутренняя константа проекта. Необходимо указать `production`
 - `BASE_1C_HOST` — URL http-сервиса 1С. Важно указать имя (или ip) машины на которой опубликована база 1С, а не писать `localhost`
 - `BASE_1C_USERNAME` — пользователь http-сервиса
-- `BASE_1C_TOKEN` — внутренний ключ для работы http-сервиса. В базе 1С он хранится в константе *Dialog base-1c-token*
 - `BASE_1C_PASSWORD` — пароль пользователя http-сервиса
+- `BASE_1C_TOKEN` — внутренний ключ для работы http-сервиса. В базе 1С он хранится в константе *Dialog base-1c-token*
 - `AG_CLIENT_ID` — *Client ID*, который нам выдал Google Ассистент для связывания аккаунта
 
 ### SSL сертификат
