@@ -2,7 +2,7 @@ import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faVk, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faVk, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 import { rhythm } from "../utils/typography"
@@ -78,9 +78,6 @@ const Header = () =>
               <SocialLink href={social.vk}>
                 <FontAwesomeIcon icon={faVk} />
               </SocialLink>
-              <SocialLink href={social.instagram}>
-                <FontAwesomeIcon icon={faInstagram} />
-              </SocialLink>
               <SocialLink href={social.github}>
                 <FontAwesomeIcon icon={faGithub} />
               </SocialLink>
@@ -105,7 +102,6 @@ const headerQuery = graphql`
         author
         social {
           vk
-          instagram
           github
           mail
         }

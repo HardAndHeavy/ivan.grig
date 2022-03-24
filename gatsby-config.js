@@ -6,9 +6,8 @@ module.exports = {
     siteUrl: `https://grig.top/`,
     social: {
       vk: `https://vk.com/soloist`,
-      instagram: `https://www.instagram.com/hardandheavymetal`,
       github: `https://github.com/HardAndHeavy`,
-      mail: `HardAndHeavyMetal@gmail.com`,
+      mail: `HardAndHeavyMetal@yandex.ru`,
     },
     git: `https://github.com/HardAndHeavy/ivan.grig`,
   },
