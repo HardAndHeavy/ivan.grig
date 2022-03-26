@@ -72,11 +72,11 @@ const Header = () =>
             }}
           >
             <div style={{ float: `right` }}>
-              <SocialLink href={`mailto:${social.mail}`}>
-                <FontAwesomeIcon icon={faEnvelope} />
-              </SocialLink>
               <SocialLink href={social.vk}>
                 <FontAwesomeIcon icon={faVk} />
+              </SocialLink>
+              <SocialLink href={`mailto:${social.mail}`}>
+                <FontAwesomeIcon icon={faEnvelope} />
               </SocialLink>
               <SocialLink href={social.github}>
                 <FontAwesomeIcon icon={faGithub} />
