@@ -49,7 +49,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "npm run build && node ./deploy-github"
+    "deploy": "npm run build"
   },
   "repository": {
     "type": "git",
