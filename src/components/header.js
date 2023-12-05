@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faVk, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
@@ -40,8 +40,8 @@ const Header = () =>
             }}
             to={`/`}>
             <div style={{ display: `table` }}>
-              <Image
-                fixed={data.avatar.childImageSharp.fixed}
+              <GatsbyImage
+                image={data.avatar.childImageSharp.gatsbyImageData}
                 alt={author}
                 style={{
                   marginBottom: 0,
@@ -92,9 +92,11 @@ const headerQuery = graphql`
   query HeaderQuery {
     avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
       childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(
+	  layout: FIXED
+          width: 50
+	  height: 50
+	)
       }
     }
     site {

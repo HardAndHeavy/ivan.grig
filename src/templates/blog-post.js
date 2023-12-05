@@ -2,15 +2,8 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
-
-const keywords = ({ frontmatter: { keywords } }) => {
-  if (!keywords) {
-    return []
-  }
-  return keywords.split(',').map(e => e.trim())
-}
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -19,10 +12,9 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout>
-        <SEO
+        <Seo
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
-          keywords={keywords(post)}
         />
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -80,7 +72,6 @@ export const pageQuery = graphql`
         title
         date(formatString: "DD MMMM YYYY", locale: "ru")
         description
-        keywords
       }
     }
   }

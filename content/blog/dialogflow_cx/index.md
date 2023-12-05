@@ -2,7 +2,6 @@
 title: Dialogflow CX
 date: "2021-11-30T07:29:47.153Z"
 description: Пример интеграции Dialogflow CX с 1С. Dialogflow – это платформа от Google для понимания естественного языка.
-keywords: google, dialogflow, dialogflow cx, AI, чат-бот, интеграция, docker, диалог, dialog, hardandheavy
 ---
  
 Пример интеграции Dialogflow CX с 1С. Dialogflow – это платформа от Google для понимания естественного языка.

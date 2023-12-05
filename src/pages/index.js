@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
@@ -11,10 +11,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout>
-        <SEO
-          title="Все статьи"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`, `блог`, `grig`, `grig.top`, `григ`, `григорьев`]}
-        />
+        <Seo title="Все статьи" />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
@@ -46,7 +43,7 @@ export default BlogIndex
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       edges {
         node {
           excerpt

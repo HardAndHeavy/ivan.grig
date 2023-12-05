@@ -1,11 +1,20 @@
 ---
 title: Резюме
 date: "2019-05-18T12:55:43.863Z"
-description: Люблю программировать и хорошо знаю&#58; 1С, MS SQL, PostgreSQL, Git, JavaScript, Node.js, Koa, React, Redux, Linux, Docker, Ansible, Terraform, DevOps.
-keywords: summary, резюме
+description: "Мои базовые навыки: 1С, Linux, DevOps, SQL, JavaScript, React."
 ---
 
-Люблю программировать и хорошо знаю: 1С, MS SQL, PostgreSQL, Git, JavaScript, Node.js, Koa, React, Redux, Linux, Docker, Ansible, Terraform, DevOps.
+- Люблю программировать, развивать свои навыки и создавать прорывные механизмы.
+- Разбираюсь в ООП, ФП, алгоритмах и подходах разработки.
+- Легко погружаюсь в любой язык программирования или технологию.
+
+Мои базовые навыки: 1С, Linux, DevOps, SQL, JavaScript, React.
+
+История:
+- В 2022 полностью перешёл на open source продукты и глубоко занялся вопросом инфраструктуры как код.
+- В 2019 поднял свои навыки в DevOps, и пробую себя как Full Stack разработчик.
+- В 2018 прошёл дополнительные курсы от Hexlet и начал активно внедрять веб-приложение на основе NodeJS, Koa, React и Redux.
+- С 2009 вырос от стажёра до ведущего программиста к 2013. В начале 2014 получил в нагрузку обучение сотрудников и должность руководителя отдела разработки.
 
 ### [Провенто](http://provento-electro.ru/)
 

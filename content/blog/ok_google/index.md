@@ -2,7 +2,6 @@
 title: Окей, Google
 date: "2021-10-26T07:29:47.153Z"
 description: Пример интеграции Google Ассистента с 1С. В основе которого лежит платформа Dialogflow CX для понимания естественного языка.
-keywords: google, dialogflow, dialogflow cx, ok, окей, ассистент, AI, чат-бот, интеграция, docker, actions, диалог, dialog, hardandheavy
 ---
  
 Пример интеграции Google Ассистента с 1С. В основе которого лежит платформа Dialogflow CX для понимания естественного языка.
