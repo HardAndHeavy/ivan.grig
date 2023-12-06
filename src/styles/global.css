@@ -38,3 +38,10 @@ a.gatsby-resp-image-link {
 blockquote {
   border-left: 0.5925rem solid #EF233C;
 }
+
+.profile-pic {
+  margin-right: var(--spacing-4);
+  margin-bottom: var(--spacing-0);
+  min-width: 50px;
+  border-radius: 100%;
+}
