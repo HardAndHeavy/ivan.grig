@@ -15,7 +15,7 @@ const Footer = () =>
             marginTop: rhythm(2),
           }}
         >
-          <p>Исходный код на <a className="secondColor" href={git}>GitHub</a></p>
+          <p><a className="secondColor" href={git}>Исходный код</a></p>
         </footer>
       )
     }}
